@@ -1,0 +1,35 @@
+{
+  "name": "educhain",
+  "version": "1.0.0",
+  "description": "Decentralized Learning Platform on Ethereum",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "deploy": "truffle deploy",
+    "test": "truffle test",
+    "ganache": "ganache-cli -p 8545"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "education",
+    "elearning",
+    "solidity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "web3": "^4.0.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16"
+  }
+}
